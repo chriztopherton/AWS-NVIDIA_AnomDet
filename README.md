@@ -26,3 +26,7 @@ pip install dash
 
 Run AggiesGUI.py and copy & paste 'http://127.0.0.1:5000/' into a new browser. Alternatively, you can 'CMD + Click'
 
+```
+python AggiesGUI.py
+```
+
