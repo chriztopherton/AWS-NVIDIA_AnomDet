@@ -1,8 +1,10 @@
 # AWS-NVIDIA_AnomDet
 
 Change directory to whereever you'd like to store this project 
+
+Fork project and
 ```
-git clone https://github.com/chriztopherton/AWS-NVIDIA_AnomDet.git && cd AWS-NVIDIA_AnomDet
+git clone https://github.com/user-name/AWS-NVIDIA_AnomDet.git && cd AWS-NVIDIA_AnomDet
 ```
 
 Create a virtual environment and install packages
