@@ -1,0 +1,17 @@
+<p>Input parameters for anamoly detection using KMeans, IsolationForest & SVM </p>
+<form method=post action="">
+<table>
+  {% for field in form %}
+    <tr>
+    <td>{{ field.name }}</td><td>{{ field }}</td>
+    <td>{{ field.label }}</td>
+    </tr>
+  {% endfor %}
+</table>
+<p><input type=submit value=Compute></form></p>
+
+<p>
+{% if result != None %}
+<img src="{{ result }}" alt="Chart" height="auto" width="100%">
+{% endif %}
+</p>
